@@ -15,9 +15,6 @@ define('JS_DIR', 'assets/js/');
 define('PLUG_DIR', 'assets/plugins/');
 define('IMAGES_DIR', 'assets/images/');
 
-//andmebaasi konstandid
-define('DATABASE_HOSTNAME', 'localhost');
-define('DATABASE_USERNAME', 'root');
-define('DATABASE_PASSWORD', '');
-define('DATABASE_DATABASE', 'khk_andmebaasid');
-
+//import database configuration:    
+//DATABASE_HOSTNAME         DATABASE_USERNAME       DATABASE_PASSWORD       DATABASE_DATABASE
+require_once 'db_conf.php';
