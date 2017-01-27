@@ -1,0 +1,38 @@
+/*  owr - rules overwritten over bootstrap  */
+
+body {
+    margin: auto;
+    width: 80%;
+}
+h1,h2,h3 {
+    color: #777;
+}
+h3 {
+  padding:5px 0 20px 0;  
+}
+small {         /*.owr-small*/
+    color: #999;
+}
+.page-header {
+/*    padding-bottom: 20px;*/
+    padding-top: 5px;
+    border: none;
+}
+.tabbable,
+.tabbable ul {
+}
+.tab-content form {
+        margin: 30px 0;
+}
+.datepicker {
+    top: 234px !important;
+    left: 556.391px !important;
+}
+
+
+
+
+
+
+/*    border:solid red;*/
+
