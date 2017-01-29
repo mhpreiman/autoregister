@@ -5,7 +5,7 @@ $carBrands = select('SELECT mark FROM auto GROUP BY mark;');
 //SELECT city
 $carRegCity = select('SELECT linnid,nimi FROM linnad GROUP BY linnid;');
 //SELECT logs
-$logs = select('SELECT logi.*, linnad.nimi FROM logi LEFT JOIN linnad ON logi.regpiirk=linnad.linnid;');
+$logs = select('SELECT logi.*, linnad.nimi FROM logi LEFT JOIN linnad ON logi.regpiirk=linnad.linnid ORDER BY aeg;');
 
 
 
